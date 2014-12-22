@@ -4,8 +4,6 @@
 
 Fetch the lastest LeaseWeb NOC status and maintenance posts.
 
-See [`src/lswnocstatus.coffee`](src/lswnocstatus.coffee) for full documentation.
-
 ## Installation
 
 Add **hubot-lswnocstatus** to your `package.json` file:

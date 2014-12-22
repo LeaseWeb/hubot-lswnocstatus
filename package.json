@@ -1,0 +1,39 @@
+{
+  "name": "hubot-lswnocstatus",
+  "description": "A hubot script to check the RSS feed at http://www.leasewebnoc.com",
+  "version": "1.0.0",
+  "author": "Sander Poelwijk <s.poelwijk@tech.leaseweb.com>",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:leaseweb/hubot-lswnocstatus.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/leaseweb/hubot-lswnocstatus/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "nodepie": ">= 0.5.0"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
